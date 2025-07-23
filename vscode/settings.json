@@ -1,0 +1,41 @@
+{
+  // minimalism
+  "editor.minimap.enabled": false,
+  "workbench.layoutControl.enabled": false,
+  "editor.glyphMargin": false,
+  "terminal.integrated.shellIntegration.decorationsEnabled": "never",
+  "editor.formatOnSave": true,
+  "editor.fontFamily": "MesloLGM NerdFont Mono",
+  "explorer.confirmDragAndDrop": false,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+
+  "workbench.iconTheme": "vscode-icons",
+  "vsicons.dontShowNewVersionMessage": true,
+
+  "git.confirmSync": false,
+  "git.suggestSmartCommit": false,
+  "diffEditor.ignoreTrimWhitespace": false,
+
+  "editor.tabSize": 2,
+  "editor.wordWrap": "bounded",
+  "[markdown]": {
+    "editor.wordWrap": "bounded",
+    "editor.wordWrapColumn": 120
+  },
+
+  "files.associations": { "*.svg": "html" },
+  "editor.linkedEditing": true,
+
+  // copilot
+  "editor.inlineSuggest.enabled": true,
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": true,
+    "scminput": false
+  },
+  "window.zoomLevel": 0.8,
+  "explorer.confirmDelete": false,
+  "svelte.enable-ts-plugin": true,
+  "workbench.activityBar.location": "top"
+}
